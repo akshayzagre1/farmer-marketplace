@@ -1,0 +1,129 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1d2a1f;
+  background: #f5f8f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: #2b6d2f;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav a,
+.nav button {
+  text-decoration: none;
+  border: none;
+  background: #eef5ee;
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #1d2a1f;
+  cursor: pointer;
+}
+
+.welcome {
+  color: #4f5b50;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  max-width: 500px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d5e2d4;
+  font-size: 14px;
+}
+
+.btn {
+  background: #2b6d2f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #e5eee4;
+  color: #1d2a1f;
+}
+
+.btn-danger {
+  background: #ad2b2b;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.search-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 14px;
+}
+
+.crop-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.error {
+  color: #b00020;
+}
+
+.success {
+  color: #147a1f;
+}
